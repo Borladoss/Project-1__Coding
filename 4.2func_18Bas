@@ -1,0 +1,9 @@
+def Law_of_Acceleration(mass, acceleration):
+    force = mass * acceleration
+    return force
+
+mass = float(input("Enter the mass: "))
+acceleration = float(input("Enter the acceleration: "))
+force = Law_of_Acceleration(mass, acceleration)
+
+print(f"The force is {force} Newtons.")
